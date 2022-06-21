@@ -1,0 +1,37 @@
+.parkingSlot {
+  max-width: 200px;
+  min-width: 63px;
+  height: 4vh;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  background-color: #a9a9a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 5px 0 10px #000;
+  margin: 0;
+  font-size: 0.785rem;
+  padding: 1rem;
+
+  @media screen and (min-width: 50rem) {
+    margin: 1rem 0;
+  }
+
+  &:first-child {
+    border-top: 2px solid #fff;
+  }
+
+  &:last-child {
+    border-bottom: 2px solid #fff;
+  }
+}
+
+.busy {
+  background-color: #e24b4b;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

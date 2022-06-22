@@ -16,7 +16,7 @@ const pages = [
   ),
   ({ style, slotsCount }) => (
     <animated.div style={{ ...style, background: 'lightgray' }}>
-      {/*  */}
+      <Main slotsCount={slotsCount} />
     </animated.div>
   )
 ]
